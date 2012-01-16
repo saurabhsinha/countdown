@@ -1,0 +1,83 @@
+*{ 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:black url(../images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+div#overlay{
+	width:100%;
+	position:absolute;
+	display:block;
+	background:transparent url(../images/overlay.gif);
+	z-index:1;
+}
+div#container {
+	width: 974px;
+	margin: 0 auto;
+
+	z-index: 30;
+	position:relative;
+
+	}
+#timerbelow{
+	height:200px;
+	width:1000px;
+	margin:0 auto;
+}
+#nakFooterContent{
+	padding-top:20px;
+	color:white;
+
+	font-size:45px;
+	font-family: 'Josefin Slab' , sans-sarif;
+}
+#nit{
+	padding-top:3px;
+	color:#8B8878;
+	font-weight:bold;
+	font-size:18px;
+	font-family: 'Fondamento' , sans-sarif;
+}
+
+#nakWrapperFooter{
+	height: 30px;
+	position: relative;
+	width:960px;
+	margin:0 auto;
+	bottom:0px;
+	font-size:14px;
+	border-top-style: solid;
+	border-color: #1E1E1E;
+	border-width: 1px;
+	color:#8B8878;
+	font-family: 'play' , sans-sarif;
+}
+#footerleft{
+	width: 300px;
+	height: 30px;
+	float: left;
+	text-align: left;
+}
+#footerright{
+	width: 387px;
+	height: 30px;
+	float: right;
+	text-align: right;
+}
+.footer{
+	margin-top:2px;
+}
+#footer{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
+

@@ -1,0 +1,124 @@
+
+
+#wrapper {
+	margin:0 auto;
+	width:650px;
+	margin-top:140px;
+
+}
+
+/* timer general */
+#timer {
+	position:relative;
+}
+
+hr {
+	position:absolute;
+	top:60px;
+	left:0;
+	width:972px;
+	border:1px solid #ffffff;
+}
+
+*:first-child+html hr {
+	top:370px;
+}
+
+
+/* timer numbers */
+.timer_numbers {
+	font-size:100px;
+	font-family: 'Oswald' , sans-sarif;
+
+	text-align:left;
+	color:#ffffff;
+}
+
+#timer_days {
+	float:left;
+	width:136px;
+	height:159px;
+	padding:10px 0 0 18px;
+	letter-spacing:10px;
+}
+
+#timer_hours {
+	float:left;
+	width:136px;
+	height:159px;
+	padding:10px 0 0 18px;
+	letter-spacing:10px;
+}
+
+#timer_mins {
+	float:left;
+	width:136px;
+	height:159px;
+	padding:10px 0 0 18px;
+	letter-spacing:10px;
+}
+
+#timer_seconds {
+	float:left;
+	width:136px;
+	height:138px;
+	padding:10px 0 0 22px;
+	letter-spacing:10px;
+}
+
+/* timer labels */
+.timer_labels {
+	font-size:25px;
+	font-family: 'Nova Square' , sans-sarif;
+	font-weight:bold;
+	text-align:center;
+	color:#8B8878;
+}
+
+#timer_labels {
+	position:relative;
+}
+
+#timer_days_label {
+	position:absolute;
+	top:150px;
+	left:38px;
+}
+
+#timer_hours_label {
+	position:absolute;
+	top:150px;
+	left:185px;
+	
+}
+
+#timer_mins_label {
+	position:absolute;
+	top:150px;
+	left:360px;	
+}
+
+#timer_seconds_label {
+	position:absolute;
+	top:150px;
+	left:510px;
+}
+
+
+
+
+
+/* below style not apart of the tutorial */
+p#demoPage {
+	display:inline;
+	padding:5px;
+	background-color:#000000;
+	color:#FFFFFF;
+	margin:20px 0;
+	font-size:18px;
+}
+
+p#demoPage a {
+	color:#FFFFFF;	
+}
+
